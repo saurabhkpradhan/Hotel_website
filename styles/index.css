@@ -1,9 +1,26 @@
 .city-img{
-    height: 300px;
-    width: 300px;
+    padding: 4%;
+    border-radius: 25%;
+    height: 150px;
+    width: 150px;
 
 }
 .SocialMediaImage{
     height: 20px;
     width: 22px;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+.logoImg{
+    height: 60px;
+    width: 60px;
 }

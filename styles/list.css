@@ -7,3 +7,32 @@
     height: 20px;
     width: 22px;
 }
+.main-container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+.logoImg{
+    height: 60px;
+    width: 60px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.list-view{
+    scroll-behavior: initial;
+}
+.City{
+    height: 150px;
+    width: 150px;
+}
+.city-detail{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+}
