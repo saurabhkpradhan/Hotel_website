@@ -13,14 +13,26 @@ body{
     width: 100%;
     margin: 0px;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .logoImg{
     height: 60px;
     width: 60px;
 }
 header , footer{
+    width: 100%;
+    position: fixed;
     background-color: rosybrown;
 }
+footer{
+	bottom: 0;
+	height: 8%;
+}
+header{
+	top: 0;
+}
+
+
 .payment{
     background-color: rgb(132,136,139); 
     margin-top:2%; 

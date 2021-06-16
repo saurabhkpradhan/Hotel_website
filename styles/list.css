@@ -7,6 +7,7 @@
     height: 20px;
     width: 22px;
 }
+
 .main-container{
     height: 100%;
     width: 100%;
@@ -16,16 +17,32 @@ body{
     width: 100%;
     margin: 0px;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .logoImg{
     height: 60px;
     width: 60px;
 }
+header , footer{
+    width: 100%;
+    position: fixed;
+    background-color: rosybrown;
+}
+footer{
+	bottom: 0;
+	height: 8%;
+}
+header{
+	top: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
 .list-view{
     scroll-behavior: initial;
+    display: grid;
+    justify-content: space-around;
 }
 .City{
     height: 150px;
@@ -35,6 +52,7 @@ html {
     margin: 2%;
     background-color: rgb(132,136,139);
     width: 40%;
+    
 }
 header , footer{
     background-color: rosybrown;

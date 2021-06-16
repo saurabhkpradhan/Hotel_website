@@ -8,6 +8,7 @@
     width: 22px;
 }
 
+
 .main-container{
     height: 100%;
     width: 100%;
@@ -17,17 +18,22 @@ body{
     width: 100%;
     margin: 0px;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .logoImg{
     height: 60px;
     width: 60px;
 }
-.hotel-image{
-    width: 500px;
-        margin-top: 2%;
-        margin-left: 4%;
-        margin-right: 4%;
-}
 header , footer{
+    width: 100%;
+    position: fixed;
     background-color: rosybrown;
 }
+footer{
+	bottom: 0;
+	height: 8%;
+}
+header{
+	top: 0;
+}
+
