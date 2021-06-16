@@ -7,7 +7,9 @@
             <div>
                 <header>
                     <div>
-                        <img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\logo.png" id="logoImg" alt="logo" height="150px" width="150px">
+                        <a href="index.html" target="_self">
+                            <img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\logo.png" id="logoImg" alt="logo" height="150px" width="150px">
+                        </a> 
                         <a href="login.html" target="_blank">Login</a>
                        
                     </div>
@@ -19,8 +21,26 @@
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="hotel-image"><br>
                     
                     </div>
+                    
                     <div>
-                        <a href="payment.html" target="_blank">Book Now</a>
+                        <form name="detail" action="payment.html" onsubmit="return validateForm()" method="GET" required style="margin-right:4%; margin-left: 4%;margin-bottom: 1%;">
+                            <label for="Adults">Adults :</label>
+                            <input type="number" name="quantity" id="quantity" min="1" required>
+                            <br>
+                            <label for="Name">Name :</label>
+                            <input type="text" name="name" id="name" required >
+                            <br>
+                            <label for="fromDate">From Date :</label>
+                            <input type="date" name="fromDate"id="fromDate" required>
+                            <br>
+                            <label for="toDate">To Date :</label>
+                            <input type="date" name="toDate" id="toDate" required>
+                            <br>
+                            <label for="total">Total</label>
+                            <input type="text" name="total" id="total">
+                            <br>
+                            <button type="Book Now" >Book Now</button>   
+                        </form>
                     </div>
                     <div>
                         <h2>
