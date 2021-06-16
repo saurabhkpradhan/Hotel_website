@@ -1,0 +1,13 @@
+.loder{
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 50%;
+    border: 15px solid #f3f3f3;
+    border-width: 12px ;
+    
+    border-color:#444444 #f3f3f3 #f3f3f3;
+    position:fixed;
+    left: 50%;
+    top: 40%;
+}

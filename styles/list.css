@@ -36,3 +36,6 @@ html {
     background-color: rgb(132,136,139);
     width: 40%;
 }
+header , footer{
+    background-color: rosybrown;
+}

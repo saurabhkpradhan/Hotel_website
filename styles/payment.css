@@ -1,8 +1,4 @@
-.city-img{
-    height: 300px;
-    width: 300px;
 
-}
 .SocialMediaImage{
     height: 20px;
     width: 22px;
@@ -21,4 +17,21 @@ body{
 .logoImg{
     height: 60px;
     width: 60px;
+}
+header , footer{
+    background-color: rosybrown;
+}
+.payment{
+    background-color: rgb(132,136,139); 
+    margin-top:2%; 
+    margin-bottom: 2%;
+    margin-left:25%;
+    margin-right: 25%;
+    
+}
+.payment-cutomer-info{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }

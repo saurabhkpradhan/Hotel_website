@@ -28,3 +28,6 @@ body{
         margin-left: 4%;
         margin-right: 4%;
 }
+header , footer{
+    background-color: rosybrown;
+}
