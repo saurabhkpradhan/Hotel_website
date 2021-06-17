@@ -1,0 +1,26 @@
+.hotelImage{
+	width:250px;
+	height:200px;
+}
+.hoteldetails{
+	display:inline-block;
+	margin:4%;
+	background-color: rgb(132,136,139);
+	width:40%;
+	
+}
+.views{
+	margin-top:5%;
+	margin-left:30%;
+	margin-right:30%;
+}
+li{
+	display:inline-block;
+		margin :6%;
+}
+.view{
+	text-decoration:none;
+	color:black;
+	
+
+}
